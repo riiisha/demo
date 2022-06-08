@@ -1,0 +1,4 @@
+insert into ProductMaterial 
+select Product.ID,Material.ID,<...> from temp
+join Product on Product.Title=temp.ProductTitle
+join Material on Material.Title=temp.MaterialTitle
